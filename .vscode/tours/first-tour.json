@@ -1,0 +1,91 @@
+{
+  "title": "CodeTour Introduction",
+  "steps": [
+    {
+      "file": "src\\App.jsx",
+      "line": 4,
+      "description": "Codetour is a VS Code extension for creating simple guided tours of your application. "
+    },
+    {
+      "file": "src%5CApp.jsx",
+      "line": 13,
+      "description": "It allows you to annotate your files at specific lines. You can write about what this line does or how it relates to another part of your code."
+    },
+    {
+      "file": "src%5CApp.jsx",
+      "line": 17,
+      "description": "Codetour will save all of the steps that you recorded as json. This makes the size of the tour small."
+    },
+    {
+      "file": "src%5CApp.jsx",
+      "line": 21,
+      "description": "To create a tour, open the command palette (ctrl-shift-p) and type CodeTour:Record Tour. Give your tour a name and hit enter."
+    },
+    {
+      "file": "src%5CApp.jsx",
+      "line": 25,
+      "description": "A white bar will appear to the right of the line numbers. A plus icon will appear when you hover over the white bar. Click this plus icon to add a step to the tour at that line."
+    },
+    {
+      "file": "src%5CApp.jsx",
+      "line": 29,
+      "description": "# A title\r\nA dialog box will appear where you can type in your comment. Click Add Step to Tour in order to save your step. Changes to the tour"
+    },
+    {
+      "file": "src%5CApp.jsx",
+      "line": 31,
+      "description": "# Markdown support is included as well\r\n*You can make text italic*\r\n**Or bold if you want**"
+    },
+    {
+      "file": "src\\App.css",
+      "line": 1,
+      "description": "You can create steps in multiple files for a single tour."
+    },
+    {
+      "file": "src%5CApp.css",
+      "line": 14,
+      "description": "To stop editing your tour, click the red square icon in the top right of the step dialog boxes. Make sure that you have saved whatever step you were working on."
+    },
+    {
+      "file": "src%5CApp.css",
+      "line": 5,
+      "description": "There is a Codetour section on the Explorer side panel. Here you can view all the steps that you have added to the tour so far. You can also change the order of the steps or delete steps here as well. The microphone icon next to the tour name means that you are currently editing the tour."
+    },
+    {
+      "file": ".vscode\\tours\\first-tour.json",
+      "line": 2,
+      "description": "Tours will be saved as a json file under the .vscode/tours directory. CodeTour will create these directories for you if they had not been created yet."
+    },
+    {
+      "file": ".vscode%5Ctours%5Cfirst-tour.json",
+      "line": 10,
+      "description": "There are a few ways you can start a tour. \r\n\r\n1. Open the command palette (ctrl-shitf-p), type CodeTour: Start Tour, and enter the name of the tour.\r\n\r\n2. Open the Codetour view under the explorer side panel and click the play icon on a specific tour.\r\n\r\n3. Click on a specific step in a tour under the explorer side panel."
+    },
+    {
+      "file": ".vscode%5Ctours%5Cfirst-tour.json",
+      "line": 14,
+      "description": "Once a tour starts, you can navigate using the arrows in the top right of the dialog box. Alternatively, you can use ctrl-leftarrow (go back) and ctrl-rightarrow (go forward)."
+    },
+    {
+      "file": ".vscode%5Ctours%5Cfirst-tour.json",
+      "line": 20,
+      "description": "Tours can be edited after they have first been created. New steps can be added at the end or in between current steps. Current steps content can be edited as well. Tour names and descriptions can be changed as well by right clicking on them in the CodeTour view on the Explorer side panel."
+    },
+    {
+      "file": ".vscode%5Ctours%5Cfirst-tour.json",
+      "line": 32,
+      "description": "The reply box on tour steps currently does not do anything. It's included as a default for vscode comments according to the author of the extension and couldn't be removed."
+    },
+    {
+      "file": "package.json",
+      "line": 2,
+      "description": "Tours can be exported and shared as well by right clicking on the tour on the side panel and choosing Export Tour."
+    },
+    {
+      "file": "package.json",
+      "line": 19,
+      "description": "Visit https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour for more information on CodeTour and the different features it has."
+    }
+  ],
+  "description": "This tour goes over the basics of what CodeTour is and the different featues it has."
+}
